@@ -69,5 +69,6 @@ public class LinkedStack<T> extends AbstractStack<T> {
     @Override
     public void clear() {
         first = last = null;
+        size = 0;
     }
 }
